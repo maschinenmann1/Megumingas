@@ -1,0 +1,12 @@
+.my-header{
+    background-color: transparent;
+}
+
+@media screen and (max-width: 800px) {
+    .my-container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+}

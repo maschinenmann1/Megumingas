@@ -1,0 +1,14 @@
+.my-error-image{
+    display: block;
+    margin: auto;
+}
+
+.my-biggy{
+    cursor: not-allowed;
+    z-index: 10;
+    transition: transform 10s ease-out;
+}
+
+.my-biggy:hover{
+    transform: scale(2);    
+}

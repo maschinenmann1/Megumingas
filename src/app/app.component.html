@@ -1,7 +1,8 @@
 <div class="mw-2000 m-auto" style="display: flex; flex-direction: column; min-height: 100vh;">
-    <app-header appReplaceTag></app-header>
-    <div class="body bg-primary" style="flex-grow: 1;">
-        <router-outlet></router-outlet>
+    <app-header class="my-header" appReplaceTag></app-header>
+    <div class="my-container d-flex" style="flex-grow: 1;">
+        <app-aside appReplaceTag></app-aside>
+        <router-outlet appReplaceTag></router-outlet>
     </div>
-    <app-footer></app-footer>
+   <app-footer></app-footer>
 </div>

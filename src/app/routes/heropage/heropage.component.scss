@@ -1,0 +1,17 @@
+.my-visual {
+    height: 100vh;
+    width: calc(100vw - 167px);
+    position: relative;
+    background-color: black;
+    background-image: url("../../../assets/images/pc-img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+@media screen and (max-width: 800px) {
+    .my-visual {
+        width: 100%;
+        height: calc(100vh - 84px);
+    }
+}
