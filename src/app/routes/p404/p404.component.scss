@@ -1,14 +1,15 @@
 .my-error-image{
     display: block;
     margin: auto;
+    border-color: none;
 }
 
 .my-biggy{
     cursor: not-allowed;
     z-index: 10;
-    transition: transform 10s ease-out;
+    transition: transform 5s ease-out;
 }
 
 .my-biggy:hover{
-    transform: scale(2);    
+    transform: scale(1.1);    
 }

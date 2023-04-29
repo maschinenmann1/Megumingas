@@ -1,12 +1,14 @@
 .my-navigator {
     position: absolute;
-    bottom: 26px;
-    left: 167px;
+    bottom: 30px;
+    left: 197px;
 }
 
 ol,
 ul {
     list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 .my-links {
@@ -40,6 +42,10 @@ ul {
 a {
     text-decoration: none;
     color: #000;
+}
+
+svg {
+    vertical-align: top;
 }
 
 @media screen and (max-width: 800px) {
