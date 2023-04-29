@@ -2,6 +2,10 @@
     background-color: transparent;
 }
 
+.my-container {
+    width: 100%;
+}
+
 @media screen and (max-width: 800px) {
     .my-container {
         -webkit-box-orient: vertical;
