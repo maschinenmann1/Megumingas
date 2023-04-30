@@ -1,1 +1,11 @@
-<p>blog-list works!</p>
+<div class="my-container d-flex justify-content-center align-items-center">
+    <div class="my-wrapper w-50 my-h-fit">
+        <div *ngFor="let item of posts">
+            <app-blog-post [post]="item" appReplaceTag></app-blog-post>
+        </div>
+        <div *ngIf="!posts.length">
+            <hr>
+            <h3 class="text-center">No comments</h3>
+        </div>
+    </div>
+</div>

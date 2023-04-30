@@ -1,4 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.cdnfonts.com/css/berlin-sans-fb');
+
+*{
+    font-family: 'Berlin Sans FB', sans-serif !important;
+}
+
 *::-webkit-scrollbar{
     display: none;
 }
@@ -22,11 +28,24 @@
     text-align: center;
 }
 
+.my-wrapper{
+    max-width: 651px;
+    min-width: 651px;
+    max-height: 379px;
+    min-height: 379px;
+    overflow-y: scroll;
+    z-index: 5;
+}
+
 .my-w-fit{
     width: max-content;
 }
 
-@media screen and (max-width: 800px) {
+.my-h-fit{
+    height: max-content;
+}
+
+@media screen and (max-width: 991px) {
     .my-container{
         width: 100vw;
         height: calc(100vh - 84px);
@@ -36,5 +55,12 @@
         padding: 15px;
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
+    }
+
+    .my-wrapper{
+        max-width: 288px;
+        min-width: 288px;
+        max-height: 625px;
+        min-height: 607px;
     }
 }
