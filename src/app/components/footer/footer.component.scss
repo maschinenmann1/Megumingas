@@ -31,6 +31,13 @@ ul {
     line-height: 28px;
 }
 
+.my-menu{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: none;
+}
+
 .my-separator{
     -webkit-user-select: none; /* Safari */        
     -moz-user-select: none; /* Firefox */
@@ -45,7 +52,7 @@ ul {
 
 .my-link svg {
     fill: black;
-    width: 20px;
+    width: 24px;
     position: relative;
     top: 2px;
 }
@@ -105,20 +112,37 @@ svg {
         margin-bottom: 7px;
     }
     
-    .my-facebook {
-        top: 60px;
+    .my-telegram {
+        right: 60px;
     }
 
-    .my-whatsapp {
-        top: 120px;
+    .my-facebook {
+        right: 100px;
     }
 
     .my-twitter {
-        top: 180px;
+        right: 140px;
+    }
+
+    .my-instagram {
+        right: 180px;
+    }
+
+    .my-separator{
+        display: none;
+    }
+
+    .my-menu{
+        display: block;
     }
 
     .my-link svg {
         width: 30px;
         height: 30px;
+    }
+
+    //EDIT THIS
+    .my-link-text{
+        display: none;
     }
 }
